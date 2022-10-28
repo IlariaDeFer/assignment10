@@ -17,7 +17,72 @@ main {
 
 }
 
+.container {
+  margin: 0 auto;
+  max-width: 1475px;
+}
+
+.partners-section {
+  padding-top: 139px;
+}
+
+.partners {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+
+.partner-title {
+  font-size: 32px;
+}
+
+.dots {
+  display: flex;
+}
+
+.dot {
+  background-color: #0024f0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 30%;
+}
+
+.dot.selected {
+  opacity: 1;
+}
+
+.partner-info {
+  display: flex;
+  column-gap: 269px;
+  justify-content: space-between;
+}
+
+.partner-text {
+  font-size: 16px;
+}
+
+.partner-text a {
+  color: #0024f0;
+  text-decoration: none;
+}
+
+.grid-logos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 25px;
+}
+
+.grid-logo img {
+  width: 219px;
+  height: 82px;
+  object-fit:contain;
+}
+
 /* Maxo's code */
 footer {
-  
+
 }
